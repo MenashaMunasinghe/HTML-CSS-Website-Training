@@ -1,0 +1,149 @@
+body {
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Open Sans", sans-serif;
+    background-image: url('images/bg-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.container {
+    padding-left: 10px;
+    height: 100vh;
+}
+
+.container .top-section {
+    padding: 50px;
+    display: flex;
+
+}
+
+.container .top-section .logo {
+    font-family: "Calistoga", serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(224, 120, 45);
+    width: 180px;
+
+}
+
+.container .top-section .navbar {
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.top-section .navbar .nav-item {}
+
+
+.container .top-section .search-bar {
+    display: flex;
+    width: 350px;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container .middle-section {
+    display: flex;
+    padding: 50px;
+    width: 100%;
+}
+
+.container .middle-section .details {
+    width: 50%;
+    font-size: 30px;
+    font-weight: 500;
+    color: azure;
+    font-family: "Playfair Display", serif;
+}
+
+.container .middle-section .middle-part {
+    font-size: 30px;
+    font-weight: 500;
+    color: chocolate;
+}
+
+.container .middle-section .last-part {
+    font-size: 30px;
+    font-weight: 500;
+    color: azure;
+}
+
+.container .middle-section .paragraph {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: azure;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container .middle-section .form {
+    width: 300px;
+    height: 500px;
+    background: rgb(16, 14, 14);
+
+}
+
+.container .middle-section .form .login {
+    font-size: 20px;
+    color: chocolate;
+    padding-left: 75px;
+    background-color: rgb(250, 250, 249);
+}
+
+.container .middle-section .form-container .form .input-controller {
+    margin-top: 44px;
+    margin-left: 65px;
+}
+
+.container .middle-section .form .login .input-field {
+    background-color: white;
+    color: black;
+
+}
+
+.input-field:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+.container .middle-section .form .login .input-field  {
+    background-color: white;
+    color: black;
+}
+
+.input-field :hover {
+    background-color: chocolate;
+    color: white;
+}
+
+.container .middle-section .form .login .logbtn {
+    margin-top: 44px;
+    background-color: white;
+    color: black;
+
+}
+
+.logbtn:hover {
+    //background-color: chocolate;
+    color: white;
+}
+
+.container .middle-part .form .guide .start {
+    font-size: 20px;
+    color: rgb(233, 227, 219);
+}
