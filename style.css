@@ -51,6 +51,16 @@ body {
     align-items: center;
 }
 
+.top-section .search-bar .search{
+    width: 150px;
+    height: 30px;
+}
+.top-section .search-bar .btn{
+    background-color: chocolate;
+    width: 100px;
+    height: 30px;
+}
+
 .container .middle-section {
     display: flex;
     padding: 50px;
@@ -59,29 +69,36 @@ body {
 
 .container .middle-section .details {
     width: 50%;
-    font-size: 30px;
+    font-size: 80px;
     font-weight: 500;
     color: azure;
     font-family: "Playfair Display", serif;
 }
 
 .container .middle-section .middle-part {
-    font-size: 30px;
+    font-size: 70px;
     font-weight: 500;
     color: chocolate;
 }
 
 .container .middle-section .last-part {
-    font-size: 30px;
+    font-size: 80px;
     font-weight: 500;
     color: azure;
 }
 
 .container .middle-section .paragraph {
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 24px;
     font-weight: 500;
     color: azure;
+}
+
+.container .middle-section .join{
+    font-size: 30px;
+    background-color: chocolate;
+    width: 200px;
+    height: 40px;
 }
 
 .form-container {
@@ -92,9 +109,9 @@ body {
 }
 
 .container .middle-section .form {
-    width: 300px;
-    height: 500px;
-    background: rgb(16, 14, 14);
+    width: 400px;
+    height: 600px;
+    background: rgb(19, 30, 47);
 
 }
 
@@ -107,7 +124,25 @@ body {
 
 .container .middle-section .form-container .form .input-controller {
     margin-top: 44px;
-    margin-left: 65px;
+    margin-left: 60px;
+    
+
+}
+.container .middle-section .form-container .form .input-controller .input-field{
+    width: 250px;
+    height: 30px;
+
+}
+
+.container .middle-section .form-container{
+    width: 700px;
+    height: 600px;
+}
+.container .middle-section .form-container .form .login{
+    height: 45px;
+    font-size: 30px;
+    color: #3e2706;
+    padding-left: 120px;
 }
 
 .container .middle-section .form .login .input-field {
@@ -131,19 +166,65 @@ body {
     color: white;
 }
 
-.container .middle-section .form .login .logbtn {
+.container .middle-section .form-container .form .logbtn .login-button {
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
     margin-top: 44px;
-    background-color: white;
     color: black;
+    background-color: chocolate;
+    margin-top: 44px;
+    margin-left: 80px;
 
 }
 
-.logbtn:hover {
-    //background-color: chocolate;
+.login-button:hover {
+    background-color: rgb(19, 121, 16);
     color: white;
 }
 
-.container .middle-part .form .guide .start {
+.container .middle-section .form-container .form .link{
     font-size: 20px;
-    color: rgb(233, 227, 219);
+    color: aliceblue;
+    margin-left: 75px;
+}
+
+.container .middle-section .form-container .form .logwith{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 130px;
+}
+
+.container .middle-section .form-container .form .signup{
+    margin-left: 130px;
+}
+
+.container .middle-section .form-container .form {
+    margin-left: 100px;
+}
+
+.s-mediaink{
+    margin-left: 110px;
+}
+
+.fb-logo {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+.insta-logo{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+.twitter-logo{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.email-logo{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
 }
