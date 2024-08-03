@@ -51,11 +51,12 @@ body {
     align-items: center;
 }
 
-.top-section .search-bar .search{
+.top-section .search-bar .search {
     width: 150px;
     height: 30px;
 }
-.top-section .search-bar .btn{
+
+.top-section .search-bar .btn {
     background-color: chocolate;
     width: 100px;
     height: 30px;
@@ -94,11 +95,13 @@ body {
     color: azure;
 }
 
-.container .middle-section .join{
-    font-size: 30px;
+.container .middle-section .join {
+    font-size: 20px;
     background-color: chocolate;
+    color: aliceblue;
     width: 200px;
     height: 40px;
+    border-radius: 10px;
 }
 
 .form-container {
@@ -115,66 +118,65 @@ body {
 
 }
 
+
 .container .middle-section .form .login {
-    font-size: 20px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 600;
     color: chocolate;
-    padding-left: 75px;
-    background-color: rgb(250, 250, 249);
+    text-align: center;
+    align-content: center;
+    background-color: rgb(240, 240, 240);
+    margin: 50px 20px 0 20px;
+    border-radius: 20px;
+
 }
 
 .container .middle-section .form-container .form .input-controller {
-    margin-top: 44px;
-    margin-left: 60px;
-    
+    margin-top: 45px;
+    padding: 0px 20px;
+
 
 }
-.container .middle-section .form-container .form .input-controller .input-field{
-    width: 250px;
+
+.container .middle-section .form-container .form .input-controller .input-field {
     height: 30px;
+    width: 100%;
+    background-color: rgb(19, 30, 47);
+    color: white;
+    border:none;
+    border-bottom: 2px solid chocolate;
 
 }
 
-.container .middle-section .form-container{
+.input-field:focus {
+    outline: none;
+}
+
+.input-field::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+.container .middle-section .form-container {
     width: 700px;
     height: 600px;
 }
-.container .middle-section .form-container .form .login{
-    height: 45px;
-    font-size: 30px;
-    color: #3e2706;
-    padding-left: 120px;
-}
 
-.container .middle-section .form .login .input-field {
-    background-color: white;
-    color: black;
-
-}
-
-.input-field:hover {
-    background-color: chocolate;
-    color: white;
-}
-
-.container .middle-section .form .login .input-field  {
-    background-color: white;
-    color: black;
-}
-
-.input-field :hover {
-    background-color: chocolate;
-    color: white;
+.container .middle-section .form-container .form .logbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
 
 .container .middle-section .form-container .form .logbtn .login-button {
-    font-size: 25px;
+    font-size: 20px;
     width: 200px;
     height: 40px;
-    margin-top: 44px;
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: chocolate;
-    margin-top: 44px;
-    margin-left: 80px;
+    border-radius: 10px;
 
 }
 
@@ -183,19 +185,20 @@ body {
     color: white;
 }
 
-.container .middle-section .form-container .form .link{
+.container .middle-section .form-container .form .reg-link {
     font-size: 20px;
     color: aliceblue;
-    margin-left: 75px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.container .middle-section .form-container .form .logwith{
+.container .middle-section .form-container .form .logwith {
     font-size: 20px;
     color: aliceblue;
     margin-left: 130px;
 }
 
-.container .middle-section .form-container .form .signup{
+.container .middle-section .form-container .form .signup {
     margin-left: 130px;
 }
 
@@ -203,7 +206,7 @@ body {
     margin-left: 100px;
 }
 
-.s-mediaink{
+.s-mediaink {
     margin-left: 110px;
 }
 
@@ -212,18 +215,20 @@ body {
     height: auto;
     margin-right: 5px;
 }
-.insta-logo{
-    width: 30px;
-    height: auto;
-    margin-right: 5px;
-}
-.twitter-logo{
+
+.insta-logo {
     width: 30px;
     height: auto;
     margin-right: 5px;
 }
 
-.email-logo{
+.twitter-logo {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.email-logo {
     width: 30px;
     height: auto;
     margin-right: 5px;
